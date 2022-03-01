@@ -10,11 +10,12 @@ GENERAL
 
 body {
   background-color: #f6f8f9;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
   background-color: white;
-  height: 90px;
+  height: 80px;
 }
 
 .container{
@@ -52,7 +53,8 @@ HEADER
 }
 
 .logo-box img{
-  vertical-align: middle;
+  padding: 10px 5px 10px 20px;
+  vertical-align: baseline;
 }
 
 /* 
@@ -66,14 +68,12 @@ MAIN
 .button-box{
   /* Adds the rounded border at the top of the box */
   border-radius: 3px 3px 0 0;
-
   padding: 15px 15px 15px 50px;
 }
 
 .to-do-box{
   /* Adds the rounded border at the bottom of the box */
   border-radius: 0 0 3px 3px;
-
   padding: 40px 15px 40px 50px;
 }
 
@@ -90,6 +90,27 @@ MAIN
   /* Add Down Arrow before text */
   content: '\25BC' ;
 }
+
+.to-do-element::before{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.to-do-element-checked::before{
+  content: '\02713';
+  border: 1px solid green;
+}
+
+.to-do-element-crossed::before{
+  content: '\0078';
+  border: 1px solid red;
+}
+
+
 
 /* 
 /MAIN
