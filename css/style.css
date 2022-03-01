@@ -88,6 +88,7 @@ MAIN
 
 .to-do-box-title{
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .to-do-box-title::before{
@@ -95,7 +96,9 @@ MAIN
   content: '\25BC' ;
 }
 
+
 .to-do-element::before{
+  /* Add Circle element before text */
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -103,18 +106,40 @@ MAIN
   margin-right: 5px;
   text-align: center;
   line-height: 15px;
+  padding: 2px;
 }
 
 .to-do-element-checked::before{
+  /* Add Check element inside circle and change color in green */
   content: '\02713';
   border: 1px solid green;
+  color: green;
 }
 
 .to-do-element-crossed::before{
+  /* Add Cross element inside circle and change color in red */
   content: '\0078';
   border: 1px solid red;
+  color: red;
 }
 
+.to-do-element-tag{
+  /* Element Tag Style */
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  border-radius: 8px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.to-do-element-tag-editorial{
+  /* Element Editorial Tag Style */
+  background-color: #45abe9;
+}
 
 
 /* 
