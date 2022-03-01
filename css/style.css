@@ -1,0 +1,61 @@
+/* 
+GENERAL
+*/
+
+*{
+  margin: 0;
+  padding:0;  
+  box-sizing: border-box;
+  }
+
+body {
+  background-color: #f6f8f9;
+}
+
+header{
+  background-color: white;
+  height: 90px;
+}
+
+.container{
+  width: 70%;
+  margin: 50px auto;
+  background-color: white;
+}
+
+h1{
+  font-size: 40px;
+  display: inline-block;
+}
+
+/* 
+HEADER
+*/
+
+.logo-box{
+  line-height: 80px;
+}
+
+.logo-box img{
+  vertical-align: middle;
+}
+
+
+
+/* 
+MAIN
+*/
+
+.button-box{
+  border-radius: 3px 3px 0 0;
+  padding: 15px 15px 15px 50px;
+}
+
+.to-do-box{
+  border-radius: 0 0 3px 3px;
+  padding: 40px 15px 40px 50px;
+}
+
+.to-do-box, .button-box{
+  border: 1px solid red;
+}
