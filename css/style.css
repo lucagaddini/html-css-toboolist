@@ -74,7 +74,7 @@ MAIN
 .to-do-box{
   /* Adds the rounded border at the bottom of the box */
   border-radius: 0 0 3px 3px;
-  padding: 40px 15px 40px 50px;
+  padding: 40px 15px 20px 50px;
 }
 
 .to-do-box, .button-box{
@@ -83,12 +83,11 @@ MAIN
 }
 
 .to-do-section{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .to-do-box-title{
   font-size: 20px;
-  padding-bottom: 10px;
 }
 
 .to-do-box-title::before{
@@ -96,6 +95,10 @@ MAIN
   content: '\25BC' ;
 }
 
+.to-do-element-block{
+margin-top: 20px;
+margin-bottom: 20px;
+}
 
 .to-do-element::before{
   /* Add Circle element before text */
