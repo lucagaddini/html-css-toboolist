@@ -141,6 +141,30 @@ MAIN
   background-color: #45abe9;
 }
 
+.to-do-element-tag-recruiting{
+  /* Element Recruiting Tag Style */
+  background-color: #64c0a9;
+}
+
+.to-do-element-tag-mobile{
+  /* Element Mobile Tag Style */
+  background-color: #f29e33;
+}
+
+.to-do-element-tag-website{
+  /* Element Website Tag Style */
+  background-color: #d763a1;
+}
+
+.to-do-element-tag-sales{
+  /* Element Sales Tag Style */
+  background-color: #b0c925;
+}
+
+.to-do-element-tag-goals{
+  /* Element Goals Tag Style */
+  background-color: #9c72e4;
+}
 
 /* 
 /MAIN
