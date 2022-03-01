@@ -82,8 +82,12 @@ MAIN
   border: 1px solid #f6f8f9;
 }
 
+.to-do-section{
+  margin-bottom: 20px;
+}
+
 .to-do-box-title{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .to-do-box-title::before{
@@ -93,11 +97,12 @@ MAIN
 
 .to-do-element::before{
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  text-align: center;
   margin-right: 5px;
+  text-align: center;
+  line-height: 15px;
 }
 
 .to-do-element-checked::before{
