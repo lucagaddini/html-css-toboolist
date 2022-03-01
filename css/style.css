@@ -22,11 +22,14 @@ header{
   width: 70%;
   margin: 50px auto;
   background-color: white;
+  border-radius: 8px;
+  border: 1px solid #f6f8f9;
 }
 
 h1{
   font-size: 40px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 button{
@@ -54,7 +57,7 @@ HEADER
 
 .logo-box img{
   padding: 10px 5px 10px 20px;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 
 /* 
@@ -67,19 +70,13 @@ MAIN
 
 .button-box{
   /* Adds the rounded border at the top of the box */
-  border-radius: 3px 3px 0 0;
   padding: 15px 15px 15px 50px;
+  border-bottom: 3px solid #f6f8f9;
 }
 
 .to-do-box{
   /* Adds the rounded border at the bottom of the box */
-  border-radius: 0 0 3px 3px;
   padding: 40px 15px 20px 50px;
-}
-
-.to-do-box, .button-box{
-  /* Adds the border to the top and bottom of the box */
-  border: 1px solid #f6f8f9;
 }
 
 .to-do-section{
