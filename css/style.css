@@ -26,11 +26,6 @@ header{
   border: 1px solid #f6f8f9;
 }
 
-h1{
-  font-size: 40px;
-  display: inline-block;
-  vertical-align: middle;
-}
 
 button{
   background-color: white;
@@ -38,6 +33,8 @@ button{
   border: 1px solid grey;
   border-radius: 5px;
   padding: 5px;
+  cursor:pointer;
+
 }
 
 .primary-button {
@@ -58,6 +55,12 @@ HEADER
 .logo-box img{
   padding: 10px 5px 10px 20px;
   vertical-align: middle;
+}
+
+.logo-text{
+  font-size: 40px;
+  vertical-align: middle;
+  font-weight: bold;
 }
 
 /* 
