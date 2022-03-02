@@ -92,7 +92,8 @@ MAIN
 
 .to-do-box-title::before{
   /* Add Down Arrow before text */
-  content: '\25BC' ;
+  content: '\25BE';
+  padding-right: 5px;
 }
 
 .to-do-element-block{
