@@ -37,6 +37,10 @@ button{
 
 }
 
+ul {
+  list-style: none;
+}
+
 .primary-button {
   background-color: #46adf1;
   color: white;
@@ -88,6 +92,7 @@ MAIN
 
 .to-do-box-title{
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .to-do-box-title::before{
@@ -96,10 +101,7 @@ MAIN
   padding-right: 5px;
 }
 
-.to-do-element-block{
-margin-top: 20px;
-margin-bottom: 20px;
-}
+
 
 .to-do-element::before{
   /* Add Circle element before text */
